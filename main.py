@@ -152,7 +152,7 @@ def main():
 		export_type  = int(config["SQL"]["export_type"])
 		destination = (config["PATH"]["destination"]).replace("custom",os.getlogin()).split(',')
 		day = int(config["SQL"]["add_current_day"])
-		with open(os.path.join(os.getcwd(),config["FILE"]["name_query"]+".sql"), 'r', encoding='utf-8') as file: query = file.read()
+		with open(os.path.join(os.getcwd(),f"query/{config["FILE"]["name_query"]}.sql"), 'r', encoding='utf-8') as file: query = file.read()
 
 		match export_type:
 			case 0:
