@@ -1,0 +1,23 @@
+# Ignore folders and its contents
+/bin/
+/-v/
+/_check/
+/.venv/
+/.vscode/
+/.git/
+
+# Ignore files from folder, kept it.
+query/*
+!query/.gitkeep
+
+img/*
+!img/.gitkeep
+
+__result/*
+!__result/.gitkeep
+
+# Ignore files with extension
+.cfg
+.sql
+.txt
+.ini
