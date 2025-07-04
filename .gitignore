@@ -16,8 +16,11 @@ img/*
 __result/*
 !__result/.gitkeep
 
+#ignore specific files
+config.json
+config.ini
+
 # Ignore files with extension
-.cfg
-.sql
-.txt
-.ini
+*.cfg
+*.sql
+*.txt
