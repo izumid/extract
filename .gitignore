@@ -17,8 +17,8 @@ __result/*
 !__result/.gitkeep
 
 #ignore specific files
-config.json
-config.ini
+config/config.json
+config/config.ini
 
 # Ignore files with extension
 *.cfg
