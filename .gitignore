@@ -24,3 +24,6 @@ config/config.ini
 *.cfg
 *.sql
 *.txt
+
+# But NOT this one!
+!keep.txt
