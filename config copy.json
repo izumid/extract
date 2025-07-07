@@ -1,7 +1,0 @@
-{
-    "database": "db_name"
-    ,"user": "db_user"
-    ,"password": "user_password"
-    ,"auth_plugin": "mysql_native_password"
-    ,"host": "server_link"
-}
